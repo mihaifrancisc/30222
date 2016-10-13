@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Fibonaci {
+
+	public static void main(String[] args) {
+		
+		//Integer n;
+		//Scanner in = new Scanner(System.in);
+		//n = in.nextInt();
+		long n = 100;
+		System.out.println("" + n);
+		long a = 1, b = 1, c;
+		
+		System.out.println("" + a);
+		System.out.println("" + b);
+		
+	    for (int i = 3; i < n; i++)
+	       {
+		     c = a + b;
+		     if(c%2 == 0) System.out.println("" + c);
+		     a = b;
+		     b = c;
+		   }
+		   
+	 
+
+	}
+
+}

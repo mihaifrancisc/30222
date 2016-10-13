@@ -1,0 +1,24 @@
+package project1;
+
+public class MyProject {
+	public static void main (String[] args) {
+		
+		int nr;
+		System.out.println("Cititi numarul nr: ");
+		nr = sc.nextInt();
+		int sum = Suma(s);
+		System.out.println("Suma multiplilor de 3 si 5 mai mici decat nr este: " + sum);
+	}
+
+
+	public static int Suma(int s) {
+		s = 0;
+		int nr, i;
+		for(i = 1; i<=nr; i++)
+			 if(i%3 == 0 || i%5 == 0)
+				  s += i;
+	
+		return s;
+	}
+}
+
