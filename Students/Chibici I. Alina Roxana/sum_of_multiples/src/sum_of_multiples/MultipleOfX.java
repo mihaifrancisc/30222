@@ -1,12 +1,12 @@
 package sum_of_multiples;
 
 public class MultipleOfX {
-	public int value;
-	//constructorul
-	public MultipleOfX(int number){
+	public long value;
+	//constructor
+	public MultipleOfX(long number){
 		value = number;
 	}
-	//metoda
+	//method
 	public long sumOfMultiples(long n){
 		long i;
 		long sum;
