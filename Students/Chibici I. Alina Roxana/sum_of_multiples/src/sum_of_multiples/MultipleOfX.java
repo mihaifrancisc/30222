@@ -8,7 +8,7 @@ public class MultipleOfX {
 	}
 	//metoda
 	public long sumOfMultiples(long n){
-		int i;
+		long i;
 		long sum;
 		sum = 0;
 		for(i = 1; i < n; i++){
