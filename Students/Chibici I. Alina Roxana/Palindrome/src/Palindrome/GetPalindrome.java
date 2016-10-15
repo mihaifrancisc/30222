@@ -3,7 +3,7 @@ import Palindrome.Palindrome;
 
 public class GetPalindrome {
 	public int limit;
-	//constructorul
+	//constructor
 	public GetPalindrome(int n){
 		limit = n;
 	}
