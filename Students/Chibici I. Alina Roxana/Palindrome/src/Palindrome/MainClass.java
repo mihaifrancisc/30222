@@ -6,9 +6,9 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-		System.out.println("Palindrom de cate cifre? ");
-		int cifre = keyboard.nextInt();
-		GetPalindrome n = new GetPalindrome(cifre);
+		System.out.println("How many numbers should the palindrome have? ");
+		int digit = keyboard.nextInt();
+		GetPalindrome n = new GetPalindrome(digit);
 		int number;
 		number = n.highestPalindrome();
 		System.out.println(number);
