@@ -5,7 +5,7 @@ import java.util.Arrays;
 import underworld.utils.Constants;
 import underworld.utils.Resources;
 
-public class Map {
+public class Map { 
 	private int[] resources;
 	
 	public Map() {

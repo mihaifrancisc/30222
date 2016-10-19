@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class FileReader {
+public class FileReader { 
 	
 	public static void printFileContents( String pathToFile ) {
 		try {

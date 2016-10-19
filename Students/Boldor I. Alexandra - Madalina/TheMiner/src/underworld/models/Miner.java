@@ -45,7 +45,7 @@ public class Miner {
 		}
 	}
 	
-	public void showBackpack() {
+	public void showBackpack() { 
 		System.out.println("[Miner] My backpack :" + Arrays.toString(backpack)+ " => "+getNumberOfBackpackSlots() +" backpack slots left");
 	}
 	

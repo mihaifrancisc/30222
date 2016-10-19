@@ -4,7 +4,7 @@ import java.util.Scanner;
 import underworld.models.*;
 import underworld.utils.*; 
 
-public class Game {
+public class Game { 
 	private static int minerNextAction;
 	private static int valuableResources = 0;
 	private static boolean minerSlept = false;

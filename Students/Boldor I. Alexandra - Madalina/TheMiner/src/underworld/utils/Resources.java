@@ -5,13 +5,12 @@ import java.util.Random;
 public class Resources {
 	
 	private static Random random = new Random() ;
-	
+
 	public static int generateValuableResource() {
 		return random.nextInt( Constants.MAP_RESOURCES_NUMBER );	
 	}
 	
 	public static int generateResource() {
 		return 2*random.nextInt( Constants.MAP_RESOURCES_NUMBER );
-	
 	}
 }
