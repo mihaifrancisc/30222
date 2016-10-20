@@ -3,12 +3,12 @@ import fibonacci.Even;
 
 public class GetMeFibonacci {
 	public int fOne, fTwo;
-	//constructorul
+	//constructor
 	public GetMeFibonacci(int nOne, int nTwo){
 		fOne = nOne;
 		fTwo = nTwo;
 	}
-	//metoda //values under 4 milion - sum of even numbers
+	//method //values under 4 milion - sum of even numbers
 	public int fib(){
 		int sum = 0;
 		if(Even.isEven(fOne)) {
@@ -26,7 +26,7 @@ public class GetMeFibonacci {
 			if(Even.isEven(fibNext)){
 				sum = sum + fibNext;
 			}
-		}while(fibNext < 4000000);
+		} while (fibNext < 4000000);
 		return sum;
 	}
 }
