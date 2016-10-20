@@ -8,12 +8,12 @@ public class Palindrome {
 		int r,sum=0,temp;    
 		  
 		  temp=n;    
-		  while(n>0){    
-		   r=n%10;  //getting remainder  
-		   sum=(sum*10)+r;    
-		   n=n/10;    
+		  while (n>0) {    
+		   r = n%10;  //getting remainder  
+		   sum = (sum*10)+r;    
+		   n = n/10;    
 		  }    
-		  if(temp==sum)    
+		  if(temp == sum)    
 			  return true;
 		  else
 			return false;  
@@ -23,15 +23,15 @@ public class Palindrome {
 		  
 		  
 		int i,j,prod;
-		int max=0;
+		int max = 0;
 		for(i=999; i>100; i--)
-			for(j=999; j>100; j--){
-				prod=i*j;
+			for(j = 999; j > 100; j--){
+				prod = i*j;
 				if(isPalindrome(prod) && prod>max){
-					max=prod;
+					max = prod;
 				}
 			}
-		System.out.println(+max);
+		System.out.println( +max );
 	}
 	
   }
