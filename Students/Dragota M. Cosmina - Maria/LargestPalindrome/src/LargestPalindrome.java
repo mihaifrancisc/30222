@@ -21,9 +21,7 @@ public class LargestPalindrome {
 
 		}
 		System.out
-				.println("Numarul "
-						+ largest
-						+ " este cel mai mare palindrom obtinut din produsul a nr de 3 cifre!");
+				.println("Numarul "+ largest + " este cel mai mare palindrom obtinut din produsul a nr de 3 cifre!");
 	}
 
 }
