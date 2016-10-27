@@ -20,7 +20,8 @@ public class Map {
 	 */
 	public Map() { // constructor
 
-		int[] resources = new int[100];// se vor initializa cu 0 by default
+		int [] resources = new int[100];// se vor initializa cu 0 by default
+		//ar fi gresit sa scriu: resources = new int[100] ?
 	}
 
 	/**

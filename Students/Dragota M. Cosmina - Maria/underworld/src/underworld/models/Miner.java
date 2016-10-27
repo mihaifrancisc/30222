@@ -20,17 +20,19 @@ public class Miner {
 
 	public Miner(String name) { // constructor
 
-		backpack = new int[100]; // initializare cu valori by default
+		int[] backpack = new int[100]; // initializare cu valori by default
 
 	}
 
 	public String getName() {
-		return this.name; // accesez numele
+		return this.name; // obtin numele
 	}
 
-	public void setName(String name) {
+	public void setName(String name) {// il setez
 		this.name = name;
 	}
+
+	
 
 	/**
 	 * Check whether the backpack is full and, if not, generate a resource the

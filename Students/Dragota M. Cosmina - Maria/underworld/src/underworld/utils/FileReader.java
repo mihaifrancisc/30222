@@ -15,7 +15,7 @@ public class FileReader {
 	 * @param pathToFile
 	 */
 	public static void printFileContents(String pathToFile) {
-		// o clasa FILES cu readLines in for
+		// I don't understand how this works
 		Path path = Paths.get(Constants.PATH_TO_RULES_FILE);
 
 		try {
