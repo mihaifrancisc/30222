@@ -26,7 +26,7 @@ public class MainController {
 		// Tipurile de animal
 		
 		AnimalFactory abstractFactory = new AnimalFactory();		// Crearea fabricii de animale
-		Random random = new Random();		// Pentru Randomizarea sepciilor si tipurilor de animale.
+		Random random = new Random();		// Pentru Randomizarea speciilor si tipurilor de animale.
 		final int COUNTER = 50; 		// Counter-ul care poate fi setat la oricec valoare
 		Animal animal[] = new Animal[COUNTER];		// Crearea celor 50 de obiecte reprezentate de animale
 	
