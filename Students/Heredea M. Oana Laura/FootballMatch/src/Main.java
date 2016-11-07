@@ -16,7 +16,9 @@ public class Main {
 			default : System.out.println("invalid number");
 			
 			}
-		}s = fm.getMatchScore();
+		}
+		
+                s = fm.getMatchScore();
 		System.out.println("scorul:" + s );
 	}
 
