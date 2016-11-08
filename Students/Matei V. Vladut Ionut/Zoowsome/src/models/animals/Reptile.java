@@ -2,6 +2,7 @@ package models.animals;
 
 public abstract class Reptile extends Animal{
 	public boolean layEggs;
+	
 
 	public boolean isLayEggs() {
 		return layEggs;

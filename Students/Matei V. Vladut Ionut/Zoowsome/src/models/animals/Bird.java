@@ -3,6 +3,7 @@ package models.animals;
 public abstract class Bird extends Animal {
 	public boolean migrates;
 	public int avgFlightAltitude;
+	
 	public boolean isMigrates() {
 		return migrates;
 	}

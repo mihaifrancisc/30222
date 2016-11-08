@@ -1,4 +1,4 @@
-package services.factories;
+package services.factories.animal;
 
 import models.animals.*;
 
