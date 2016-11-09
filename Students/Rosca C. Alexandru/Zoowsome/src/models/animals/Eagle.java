@@ -4,6 +4,7 @@ public class Eagle extends Bird{
 	
 	private float wingSpred;
 	
+	/*
 	public Eagle (){
 		nrOfLegs = 2;
 		name = "Eagle";
@@ -11,9 +12,12 @@ public class Eagle extends Bird{
 		avgFlightAltitude = 1000; 
 		setWingSpred(3);
 	}
+	*/
 	
 	public Eagle(float wingSpred, boolean migrate, int avgFlightAltitude){
-		this();
+		super(4, 0.3);
+		setNrOfLegs(2);
+		setName("Eagle");
 		this.setWingSpred(wingSpred);
 		this.migrate = migrate;
 		this.avgFlightAltitude = avgFlightAltitude;

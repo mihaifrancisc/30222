@@ -3,7 +3,7 @@ package models.animals;
 public class Cow extends Mammal{
 
 	private float litersOfMilk;
-	
+	/*
 	public Cow(){
 		nrOfLegs = 4;
 		name = "Cow";
@@ -11,9 +11,12 @@ public class Cow extends Mammal{
 		percBodyHair = 95; 
 		setLitersOfMilk(2);
 	}
+	*/
 	
 	public Cow(float litersOfMilk, float normalBodytemp, float percBodyHair){
-		this();
+		super(4,0.01);
+		setNrOfLegs(4);
+		setName("Cow");
 		this.setLitersOfMilk(litersOfMilk);
 		this.normalBodytemp = normalBodytemp;
 		this.percBodyHair = percBodyHair;

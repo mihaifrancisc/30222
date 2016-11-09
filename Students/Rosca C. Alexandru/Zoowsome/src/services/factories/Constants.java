@@ -4,14 +4,34 @@ public final class Constants {
 
 	public static final int noOfSpecies = 5;
 	public static final int noOfAnimalsOfEachType = 3;
-	public static final int noOfAnimals = 50;
+	public static final int noOfAnimals = 20;
+	public static final long nrOfZero = 1000000000000l;
+	public static final int workingHours = 4;
+	public static final int nrOfZeroSalary = 1000;
+	public static final int nrOfWorkers = 10;
+	public static final int startHourDanger = 9;
+	public static final int endHourDanger = 22;
+	public static final double percDeng = 0.2;
+	
+	public static final class Employees{
+		public static final class Caretakers{
+			public static final String TCO_SUCCESS = "SUCCESS";
+			public static final String TCO_KILLED = "KILLED";
+			public static final String TCO_NO_TIME = "NO_TIME";
+			public static final String CARETAKER = "Caretaker";
+		}
+		
+		public static final String[] names = {"John", "Mike", "Alex", "Susan", "Troy", "Max", "Lois", "Meg","Peter"};
+	}
+	
 	
 	public static final class Species {
-		public static final String MAMMALS = "Mammals";
-		public static final String REPTILES = "Reptiles";
-		public static final String BIRDS = "Birds";
-		public static final String AQUATICS = "Aquatics";
-		public static final String INSECTS = "Insects";
+		public static final String MAMMALS = "MAMMALS";
+		public static final String REPTILES = "REPTILES";
+		public static final String BIRDS = "BIRDS";
+		public static final String AQUATICS = "AQUATICS";
+		public static final String INSECTS = "INSECTS";
+	//	public static final int randomWord1 = 5;
 	}
 	
 	public static final class Animals{
@@ -45,5 +65,7 @@ public final class Constants {
 			public static final String FLY = "FLY";
 			public static final String MOSQUITO = "MOSQUITO";
 		}
+
+		//public static int randomWord1 = 15;
 	}
 }

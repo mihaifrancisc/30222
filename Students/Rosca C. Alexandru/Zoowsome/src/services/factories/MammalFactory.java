@@ -32,7 +32,7 @@ public class MammalFactory extends SpeciesFactory{
 			float weight = random.nextInt(20)+ 60; // int 60 - 80 kg
 			
 			return new Lion(weight, normalBodytemp, percBodyHair);
-		} else return new Cow(); //modificat
+		} else return new Cow(3, 37, 90); //modificat
 			
 	}
 }

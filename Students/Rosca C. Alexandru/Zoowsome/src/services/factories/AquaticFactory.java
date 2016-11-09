@@ -26,7 +26,7 @@ public class AquaticFactory extends SpeciesFactory{
 			avgSwimDepth = random.nextInt(50)+ 50; //50 - 100 m
 			
 			return new Tuna(lenght, avgSwimDepth);
-		} else return new Frog();  //default
+		} else return new Frog(false, 2);  //default
 	}
 }
 

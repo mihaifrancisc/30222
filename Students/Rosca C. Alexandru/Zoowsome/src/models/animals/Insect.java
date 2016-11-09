@@ -7,6 +7,10 @@ public abstract class Insect extends Animal{
 	public boolean isCanFly() {
 		return canFly;
 	}
+	
+	public Insect(double maintenaceCost1, double dangerPerc1){
+		super(maintenaceCost1, dangerPerc1);
+	}
 	public void setCanFly(boolean canFly) {
 		this.canFly = canFly;
 	}

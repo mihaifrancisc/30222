@@ -21,7 +21,7 @@ public class InsectFactory extends SpeciesFactory{
 		} else if (Constants.Animals.Insects.MOSQUITO.equals(type)){
 			
 			return new Mosquito(random.nextBoolean(), random.nextBoolean(), random.nextBoolean());
-		} else return new Ant(); //modificat !!!
+		} else return new Ant(5, false, true); //modificat !!!
 }
 	
 }
