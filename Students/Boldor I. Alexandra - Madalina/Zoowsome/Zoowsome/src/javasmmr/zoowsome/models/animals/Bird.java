@@ -4,9 +4,10 @@ public abstract class Bird extends Animal {
 	private Boolean migrates;
 	private int avgFlightAltitude;
 	
-	/*public Bird() {
-		// TODO Auto-generated constructor stub
-	}*/
+	public Bird(double maintenanceCost, double dangerPerc) {
+		super(maintenanceCost, dangerPerc);
+	}
+	
 	public Boolean isMigrating() {
 		return this.migrates;
 	}

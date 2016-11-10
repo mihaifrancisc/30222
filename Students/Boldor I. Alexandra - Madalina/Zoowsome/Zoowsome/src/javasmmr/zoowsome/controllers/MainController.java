@@ -3,14 +3,17 @@ package javasmmr.zoowsome.controllers;
 import java.util.Random;
 
 import javasmmr.zoowsome.models.animals.*;
+import javasmmr.zoowsome.models.employees.Caretaker;
+import javasmmr.zoowsome.models.employees.Employee;
 import javasmmr.zoowsome.services.factories.*;
+import javasmmr.zoowsome.services.factories.Constants.Employees.Caretakers;
 
 public class MainController {
 	public static void main(String[] args) throws Exception {
-		int counter,i=0;
-		int nbOfAnimals=15;
+		int counter,i=-1;
+		int nbOfAnimals=15, nbOfCaretakers=5;
 		
-		Animal a[]=new Animal[nbOfAnimals+1];
+		Animal a[] = new Animal[nbOfAnimals+1];
 		AnimalFactory abstractFactory = new AnimalFactory();
 		SpeciesFactory speciesFactory1 = abstractFactory.getSpeciesFactory(Constants.Species.Mammals);
 		SpeciesFactory speciesFactory2 = abstractFactory.getSpeciesFactory(Constants.Species.Birds);
@@ -215,6 +218,38 @@ public class MainController {
 					break;	
 				default: System.out.println("The generated number is 0");
 						
+			}
+		}
+		
+		CaretakerFactory caretakerFactory = new CaretakerFactory();
+		Employee caretakers[] = new Employee[nbOfCaretakers];
+		
+
+		for(int j=0; j<nbOfCaretakers; j++) {
+			caretakers[j] = caretakerFactory.getEmployeeFactory(Constants.Employees.Caretakers.CARETAKER);
+		}
+		
+		for (Employee c : caretakers) {
+			for(Animal animal : a) {
+				if(  !( c.getIsDead() ) && !( animal.getTakenCareOf() )  ) {
+					String result = ((Caretaker) c).takeCareOf(animal);
+					if(result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						c.setIsDead(true);
+					} else if(result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						continue; 
+					}  else {
+						animal.setTakenCareOf(true);
+					}
+				}
+				
+			}
+		}
+
+		for( Animal animal : a) {
+			if ( animal.getTakenCareOf() ) {
+				System.out.println("I'm "+animal.getName()+" and I have a caretaker" );
+			} else {
+				System.out.println("Oh,no!I'm "+animal.getName()+" and nobody takes care of me");
 			}
 		}
 	}

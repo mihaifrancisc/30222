@@ -5,6 +5,10 @@ public abstract class Aquatic extends Animal {
 	public enum water { saltwater,freshwater };
 	private water waterType;
 	
+	public Aquatic(double maintenanceCost, double dangerPerc) {
+		super(maintenanceCost, dangerPerc);
+	}
+	
 	public int getAvgSwimDepth() {
 		return this.avgSwimDepth;
 	}
