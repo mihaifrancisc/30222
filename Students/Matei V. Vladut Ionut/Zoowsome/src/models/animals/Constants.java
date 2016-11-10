@@ -1,12 +1,12 @@
 package models.animals;
 
-public final class Constants {
-	public static final class Species {
-		public static final String MAMMALS = "Mammals";
-		public static final String REPTILES = "Reptiles";
-		public static final String BIRDS = "Birds";
-		public static final String AQUATICS = "Aquatics";
-		public static final String INSECTS = "Insects";
+public final class Constants {	
+		public static final class Species {
+				public static final String MAMMALS = "Mammals";
+				public static final String REPTILES = "Reptiles";
+				public static final String BIRDS = "Birds";
+				public static final String AQUATICS = "Aquatics";
+				public static final String INSECTS = "Insects";
 		}
 	
 		public static final class Animals {
@@ -36,5 +36,14 @@ public final class Constants {
 				public static final String BUTTERFLY = "Butterfly";
 		}
 	}
+		public static final class Employees{
+				public static final String CARETAKER = "CARETAKER";
+						
+				public static final class Caretakers{
+						public static final String TCO_SUCCESS = "SUCCESS";
+						public static final String TCO_KILLED = "KILLED";
+						public static final String TCO_NO_TIME = "NO_TIME";
+				}
+			}
 
 }
