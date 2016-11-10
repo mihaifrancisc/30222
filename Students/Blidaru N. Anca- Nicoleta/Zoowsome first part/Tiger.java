@@ -1,7 +1,9 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Tiger extends Mammal {
+
 	public Tiger(int nrOfLegs, String name, float normalBodyTemp, float percBodyHair) {
+		super(6, 1);
 		setNrOfLegs(nrOfLegs);
 		setName(name);
 		setNormalBodyTemp(normalBodyTemp);
