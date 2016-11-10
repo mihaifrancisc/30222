@@ -2,9 +2,11 @@ package javasmmr.zoowsome.models.animals;
 
 public abstract class Reptile extends Animal {
 	private Boolean laysEggs;
-	/*public Reptile() {
-		// TODO Auto-generated constructor stub
-	}*/
+	
+	public Reptile(double maintenanceCost, double dangerPerc) {
+		super(maintenanceCost, dangerPerc);
+	}
+	
 	public Boolean isLayingEggs() {
 		return this.laysEggs;
 	}
