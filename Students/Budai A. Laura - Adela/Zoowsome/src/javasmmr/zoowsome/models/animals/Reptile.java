@@ -1,6 +1,7 @@
 package javasmmr.zoowsome.models.animals;
 
 public abstract class Reptile extends Animal {
+	
 	boolean laysEggs;
 
 	public boolean getLaysEggs() {
@@ -10,5 +11,4 @@ public abstract class Reptile extends Animal {
 	public void setLaysEggs(boolean laysEggs) {
 		this.laysEggs = laysEggs;
 	}
-
 }
