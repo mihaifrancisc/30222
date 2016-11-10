@@ -26,6 +26,6 @@ public class ReptileFactory extends SpeciesFactory{
 		} else if (Constants.Animals.Reptiles.SNAKE.equals(type)){
 			
 			return new Snake(random.nextBoolean(), random.nextBoolean());
-		} else return new Snake();  //default
+		} else return new Snake(true, true);  //default
 	}
 }

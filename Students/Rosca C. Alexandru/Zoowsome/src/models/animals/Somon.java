@@ -3,15 +3,18 @@ package models.animals;
 public class Somon extends Aquatic{
 
 	private int migrationDist;
-	
+	/*
 	public Somon (){
 		nrOfLegs = 0;
 		name = "Somon";
 		avgSwimDepth = 2;
 	}
+	*/
 	
 	public Somon(int migrationDist, int avgSwimDepth ){
-		this();
+		super(1, 0);
+		setName("Somon");
+		setNrOfLegs(0);
 		this.setMigrationDist(migrationDist);
 		this.avgSwimDepth = avgSwimDepth;
 	}

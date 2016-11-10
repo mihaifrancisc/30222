@@ -3,7 +3,7 @@ package models.animals;
 public class Horse extends Mammal{
 
 	private boolean isRaceHorse;
-	
+	/*
 	public Horse(){
 		nrOfLegs = 4;
 		name = "Horse";
@@ -11,8 +11,11 @@ public class Horse extends Mammal{
 		percBodyHair = 90; 
 		isRaceHorse = true;
 	}
+	*/
 	public Horse(boolean isRaceHorse, float normalBodytemp, float percBodyHair){
-		this();
+		super(3, 0.1);
+		setNrOfLegs(4);
+		setName("Horse");
 		this.setRaceHorse(isRaceHorse);
 		this.normalBodytemp = normalBodytemp;
 		this.percBodyHair = percBodyHair;

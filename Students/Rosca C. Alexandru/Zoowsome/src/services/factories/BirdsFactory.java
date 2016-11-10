@@ -18,7 +18,6 @@ public class BirdsFactory extends SpeciesFactory{
 			weight = random.nextInt(8) + 2; // interval 2 - 9 kg
 			migrate = random.nextBoolean(); 
 			avgFlightAlt = random.nextInt(40) + 10; //interval 10 - 50 m
-			
 			return new Crow(weight, migrate, avgFlightAlt);
 			
 			
@@ -38,7 +37,7 @@ public class BirdsFactory extends SpeciesFactory{
 			
 			return new Woodpecker(noOfEggs, migrate, avgFlightAlt);
 			
-		} else return new Crow(); //default
+		} else return new Crow(7, false, 40); //default
 	}
 }
 	

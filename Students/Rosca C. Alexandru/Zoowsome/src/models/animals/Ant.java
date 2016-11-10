@@ -4,16 +4,21 @@ public class Ant extends Insect{
 	
 	private int lvlPainBite;
 	
+	/*
 	public Ant(){
 		nrOfLegs = 10;
 		name = "Ant";
 		isDangerous = true;
 		canFly = false;
 		setLvlPainBite(5);
+		
 	}
+	*/
 	
 	public Ant(int lvlPainBite, boolean canFly, boolean isDangerous){
-		this();
+		super(0.5, 0.2);
+		setNrOfLegs(10);
+		setName("Ant");
 		this.setLvlPainBite(lvlPainBite);
 		this.isDangerous = isDangerous;
 		this.canFly = canFly;

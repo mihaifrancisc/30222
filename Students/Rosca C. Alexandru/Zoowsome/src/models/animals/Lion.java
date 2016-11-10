@@ -4,6 +4,7 @@ public class Lion extends Mammal{
 	
 	private float weight;
 	
+	/*
 	public Lion(){
 		nrOfLegs = 4;
 		name = "Lion";
@@ -11,9 +12,12 @@ public class Lion extends Mammal{
 		percBodyHair = 100; 
 		weight = 70;
 	}
+	*/
 	
 	public Lion(float weight, float normalBodytemp, float percBodyHair){
-		this();
+		super(6, 0.6);
+		setName("Lion");
+		setNrOfLegs(4);
 		this.setWeight(weight);
 		this.normalBodytemp = normalBodytemp;
 		this.percBodyHair = percBodyHair;
