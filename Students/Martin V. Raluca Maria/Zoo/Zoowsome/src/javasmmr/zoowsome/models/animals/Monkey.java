@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Monkey extends Mammal {

@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Cockroach extends Insect {
@@ -10,6 +9,7 @@ public class Cockroach extends Insect {
 		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 	}
+
 	public Cockroach() {
 		this(true, true, "Gandi", 8, 0.2, 0.5);
 	}
@@ -22,5 +22,7 @@ public class Cockroach extends Insect {
 		else {
 			return false;
 		}
+	
 	}
 }
+	

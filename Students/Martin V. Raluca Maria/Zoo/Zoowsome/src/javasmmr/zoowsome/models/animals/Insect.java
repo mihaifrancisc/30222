@@ -5,7 +5,6 @@ public abstract class Insect extends Animal{
 		super(maintenanceCost, dangerPerc);
 		// TODO Auto-generated constructor stub
 	}
-
 	private Boolean canFly;
 	private Boolean isDangerous;
 	
@@ -24,7 +23,6 @@ public abstract class Insect extends Animal{
 	public void setIsDangerous(Boolean isDangerous) {
 		this.isDangerous = isDangerous;
 	}
-	
 	
 
 }

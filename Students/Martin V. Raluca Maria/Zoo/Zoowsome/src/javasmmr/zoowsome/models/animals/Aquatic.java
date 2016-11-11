@@ -1,6 +1,7 @@
 package javasmmr.zoowsome.models.animals;
 
 public abstract class Aquatic extends Animal {
+
 	
 	public Aquatic(Double maintenanceCost, Double dangerPerc) {
 		super(maintenanceCost, dangerPerc);

@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Lizzard extends Reptile{
@@ -9,7 +8,7 @@ public class Lizzard extends Reptile{
 		this.setName(name); 
 		this.setNrOfLegs(nrOflegs);
 	}
-	
+		
 	public Lizzard() {
 		this(true, "Lizzy", 4, 0.4, 0.2);
 	}

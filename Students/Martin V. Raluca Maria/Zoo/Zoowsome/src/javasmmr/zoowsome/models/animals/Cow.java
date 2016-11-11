@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
+
 
 public class Cow extends Mammal {
 	public Cow(float normalBodyTemp, float percBodyHair, String name, int nrOfLegs, Double maintenanceCost, Double dangerPerc) {
@@ -23,5 +23,6 @@ public class Cow extends Mammal {
 		else {
 			return false;
 		}
+
 	}
 }

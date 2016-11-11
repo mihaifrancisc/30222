@@ -7,6 +7,7 @@ public abstract class Bird extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+
 	private Boolean migrates;
 	private int avgFlightAltitude;
 	

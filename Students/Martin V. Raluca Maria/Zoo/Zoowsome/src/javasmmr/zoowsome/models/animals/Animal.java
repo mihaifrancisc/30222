@@ -12,6 +12,8 @@ public abstract class Animal implements Killer {
 		this.maintenanceCost = maintenanceCost;
 		this.dangerPerc = dangerPerc;
 	}
+	
+
 	public void setNrOfLegs(int nrOfLegs) {
 		this.nrOfLegs = nrOfLegs;
 	}
@@ -28,6 +30,7 @@ public abstract class Animal implements Killer {
 		return name;
 	}
 	
+
 	public void setTakenCareOf( boolean takenCareOf ) {
 		this.takenCareOf = takenCareOf;
 	}
@@ -47,5 +50,10 @@ public abstract class Animal implements Killer {
 	public double getPredisposition() {
 		return 0;
 	}
+
+	
+	
+	
+
 	
 }

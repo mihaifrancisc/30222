@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Gull extends Bird {
@@ -9,7 +8,7 @@ public class Gull extends Bird {
 		this.setMigrates(migrates); 
 		this.setName(name); 
 		this.setNrOfLegs(nrOfLegs);
-	}
+	}	
 	public Gull() {
 		this(false, 3000, "Gully", 2, 4.3, 0.1);
 	}

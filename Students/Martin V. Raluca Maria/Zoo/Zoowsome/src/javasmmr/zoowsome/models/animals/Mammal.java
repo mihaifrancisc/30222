@@ -5,7 +5,6 @@ public abstract class Mammal extends Animal {
 		super(maintenanceCost, dangerPerc);
 		// TODO Auto-generated constructor stub
 	}
-
 	private float normalBodyTemp;
 	private float percBodyHair;
 	

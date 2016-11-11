@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Butterfly extends Insect {
@@ -9,8 +8,8 @@ public class Butterfly extends Insect {
 		this.setIsDangerous(isDangerous);
 		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
-		
 	}
+
 	public Butterfly() {
 		this(true, true, "Zimi", 8, 0.5, 0.0);
 	}
@@ -26,6 +25,12 @@ public class Butterfly extends Insect {
 		}
 		
 	}
+
+	}
+	
+	
+	
+
 		
 
-}
+

@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Turacos extends Bird {
@@ -23,6 +22,4 @@ public class Turacos extends Bird {
 			return false;
 		}
 	}
-
-
 }

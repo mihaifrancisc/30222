@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Dolphin extends Aquatic{
@@ -9,7 +8,7 @@ public class Dolphin extends Aquatic{
 		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 	}
-	
+
 	public Dolphin() {
 		this(60, "Dolphy", 3, 7.0, 0.4);
 	}

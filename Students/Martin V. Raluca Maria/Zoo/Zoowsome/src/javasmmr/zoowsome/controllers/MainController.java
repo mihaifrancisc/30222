@@ -2,12 +2,10 @@ package javasmmr.zoowsome.controllers;
 import javasmmr.zoowsome.models.animals.*;
 import javasmmr.zoowsome.models.employees.*;
 import javasmmr.zoowsome.services.factories.*;
-
+import javasmmr.zoowsome.services.factories.*;
 import java.util.Random;
-
 public class MainController {
 	public static void main(String[] args) throws Exception {
-		
 		AnimalFactory abstractFactory = new AnimalFactory();
 		/*SpeciesFactory speciesFactory1 = 
 				abstractFactory.getSpeciesFactory(Constants.Species.Mammals);
@@ -143,6 +141,7 @@ public class MainController {
 			System.out.println(animalss[i]);
 		}
 		
+
 		Random rand = new Random();
 		int numberOfCaretakers = rand.nextInt(40);
 		CaretakerFactory careTakerFactory = new CaretakerFactory();
@@ -164,7 +163,6 @@ public class MainController {
 				}
 			}
 		}
-		
 		
 	}
 }

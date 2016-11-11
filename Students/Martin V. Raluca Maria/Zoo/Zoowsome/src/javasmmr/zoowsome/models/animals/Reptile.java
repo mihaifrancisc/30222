@@ -6,7 +6,6 @@ public abstract class Reptile extends Animal {
 		super(maintenanceCost, dangerPerc);
 		// TODO Auto-generated constructor stub
 	}
-
 	private Boolean laysEggs;
 	
 	public Boolean getLaysEggs() {
@@ -16,5 +15,4 @@ public abstract class Reptile extends Animal {
 	public void setLaysEggs(Boolean laysEggs) {
 		this.laysEggs = laysEggs;
 	}
-	
 }

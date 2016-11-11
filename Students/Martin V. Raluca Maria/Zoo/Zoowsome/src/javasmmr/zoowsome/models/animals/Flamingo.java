@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Flamingo extends Bird {
@@ -10,6 +9,7 @@ public class Flamingo extends Bird {
 		this.setName(name);
 		this.setNrOfLegs(nrOfLegs); 
 	}
+
 	public Flamingo() {
 		this(false, 150, "Flamy", 2, 6.4, 0.2);
 	}

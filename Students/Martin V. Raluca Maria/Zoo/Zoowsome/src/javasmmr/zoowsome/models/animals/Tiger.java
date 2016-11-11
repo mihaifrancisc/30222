@@ -1,5 +1,4 @@
 package javasmmr.zoowsome.models.animals;
-
 import java.util.Random;
 
 public class Tiger extends Mammal {
@@ -10,7 +9,7 @@ public class Tiger extends Mammal {
 		this.setNormalBodyTemp(normalBodyTemp);
 		this.setNrOfLegs(nrOfLegs);
 		this.setPercBodyHair(percBodyHair);
-	}
+	}	
 	
 	public Tiger() {
 		this(15, 80, "Tigy", 4, 8.0, 1.0);
