@@ -5,11 +5,11 @@ import javasmmr.zoowsome.models.animals.*;
 public class BirdFactory extends SpeciesFactory {  
 	 //@Override  
 	 public Animal getAnimal(String type) {   
-		 if (Constants.Animals.Birds.Eagle.equals(type)) {   
+		 if (Constants.Animals.Birds.EAGLE.equals(type)) {   
 			 return new Eagle();   } 
-		 else if (Constants.Animals.Birds.Crow.equals(type)) {   
+		 else if (Constants.Animals.Birds.CROW.equals(type)) {   
 				 return new Crow();   } 
-		 else if (Constants.Animals.Birds.Parrot.equals(type)){
+		 else if (Constants.Animals.Birds.PARROT.equals(type)){
 			 return new Parrot();	}
 		 else {
 			 return null;

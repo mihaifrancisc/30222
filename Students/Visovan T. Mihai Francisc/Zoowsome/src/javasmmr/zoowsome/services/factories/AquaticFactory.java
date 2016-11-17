@@ -5,11 +5,11 @@ import javasmmr.zoowsome.models.animals.*;
 public class AquaticFactory extends SpeciesFactory {  
 	 //@Override  
 	 public Animal getAnimal(String type) {   
-		 if (Constants.Animals.Aquatics.Shark.equals(type)) {   
+		 if (Constants.Animals.Aquatics.SHARK.equals(type)) {   
 			 return new Shark();  } 
-		 else if (Constants.Animals.Aquatics.Dolphin.equals(type)) {   
+		 else if (Constants.Animals.Aquatics.DOLPHIN.equals(type)) {   
 				 return new Dolphin();   } 
-		 else if(Constants.Animals.Aquatics.Whale.equals(type)){
+		 else if(Constants.Animals.Aquatics.WHALE.equals(type)){
 			 return new Whale();	}
 		 else {   
 			 return null;

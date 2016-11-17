@@ -2,6 +2,10 @@ package javasmmr.zoowsome.models.animals;
 
 public abstract class Bird extends Animal{
 
+	public Bird(double maintenanceCost, double damagePerc) {
+		super(maintenanceCost, damagePerc);
+		// TODO Auto-generated constructor stub
+	}
 	boolean migrates;
 	int avgFlightAltitude;
 	
