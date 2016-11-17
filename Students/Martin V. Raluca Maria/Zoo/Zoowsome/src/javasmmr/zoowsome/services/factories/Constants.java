@@ -38,5 +38,14 @@ public final class Constants {
 		}
 		
 	}
+	
+	public static final class Employees {
+		public static final String CARETAKER = "CARETAKER";
+		public static final class Caretakers {
+			public static final String TCO_SUCCES = "SUCCES";
+			public static final String TCO_KILLED = "KILLES";
+			public static final String TCO_NO_TIME = "NO_TIME";
+		}
+	}
 
 }

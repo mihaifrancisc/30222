@@ -1,6 +1,10 @@
 package javasmmr.zoowsome.models.animals;
 
 public abstract class Mammal extends Animal {
+	public Mammal(Double maintenanceCost, Double dangerPerc) {
+		super(maintenanceCost, dangerPerc);
+		// TODO Auto-generated constructor stub
+	}
 	private float normalBodyTemp;
 	private float percBodyHair;
 	

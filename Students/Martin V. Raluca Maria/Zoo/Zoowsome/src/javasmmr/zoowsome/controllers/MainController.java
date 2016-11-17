@@ -1,8 +1,9 @@
 package javasmmr.zoowsome.controllers;
 import javasmmr.zoowsome.models.animals.*;
+import javasmmr.zoowsome.models.employees.*;
+import javasmmr.zoowsome.services.factories.*;
 import javasmmr.zoowsome.services.factories.*;
 import java.util.Random;
-
 public class MainController {
 	public static void main(String[] args) throws Exception {
 		AnimalFactory abstractFactory = new AnimalFactory();
@@ -138,6 +139,29 @@ public class MainController {
 		}
 		for ( int i = 0; i<49; i++) {
 			System.out.println(animalss[i]);
+		}
+		
+
+		Random rand = new Random();
+		int numberOfCaretakers = rand.nextInt(40);
+		CaretakerFactory careTakerFactory = new CaretakerFactory();
+		Employee[] caretakerStaff = new Employee[numberOfCaretakers];
+		
+		for( Employee c : caretakerStaff ) {
+			for( Animal a: animalss) {
+				if( !(c.getIsDead()) && !(a.getTakenCareOf())) {
+					String result = ((Caretaker) c).takeCareOf(a);
+					if( result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						c.setIsDead(true);
+					}
+					else if( result.equals(Constants.Employees.Caretakers.TCO_NO_TIME) ) {
+						continue;
+					}
+					else {
+						a.setTakenCareOf(true);
+					}
+				}
+			}
 		}
 		
 	}
