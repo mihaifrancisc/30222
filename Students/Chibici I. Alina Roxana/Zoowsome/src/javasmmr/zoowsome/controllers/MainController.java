@@ -1,83 +1,107 @@
 package javasmmr.zoowsome.controllers;
 
 import java.util.Random;
-
 import javasmmr.zoowsome.models.animals.Animal;
-import javasmmr.zoowsome.services.factories.AnimalFactory;
+import javasmmr.zoowsome.models.employees.Caretaker;
 import javasmmr.zoowsome.services.factories.Constants;
-import javasmmr.zoowsome.services.factories.SpeciesFactory;
+import javasmmr.zoowsome.services.factories.animal.AnimalFactory;
+import javasmmr.zoowsome.services.factories.animal.SpeciesFactory;
+import javasmmr.zoowsome.services.factories.employee.EmployeeAbstractFactory;
+import javasmmr.zoowsome.services.factories.employee.EmployeeFactory;
 
 public class MainController {
 
 	public static void main(String[] args) throws Exception {
-		/*
-		AnimalFactory abstractFactoryOne = new AnimalFactory();  
-		SpeciesFactory speciesFactory1 = abstractFactoryOne.getSpeciesFactory(Constants.Species.Aquatic);   
-		Animal a1 = speciesFactory1.getAnimal(Constants.Animal.Aquatic.Tuna);   
-		System.out.printf("We have an animal with %d legs!\n", a1.getNrOfLegs());
-		*/
 		
-		//twist1
 		AnimalFactory abstractFactory = new AnimalFactory();
-		SpeciesFactory speciesFactoryMammal = abstractFactory.getSpeciesFactory(Constants.Species.Mammal);
-		SpeciesFactory speciesFactoryAquatic = abstractFactory.getSpeciesFactory(Constants.Species.Aquatic);
-		SpeciesFactory speciesFactoryBird = abstractFactory.getSpeciesFactory(Constants.Species.Bird);
-		SpeciesFactory speciesFactoryInsect = abstractFactory.getSpeciesFactory(Constants.Species.Insect);
-		SpeciesFactory speciesFactoryReptile = abstractFactory.getSpeciesFactory(Constants.Species.Reptile);
+		SpeciesFactory speciesFactoryMammal = abstractFactory.getSpeciesFactory(Constants.Species.MAMMAL);
+		SpeciesFactory speciesFactoryAquatic = abstractFactory.getSpeciesFactory(Constants.Species.AQUATIC);
+		SpeciesFactory speciesFactoryBird = abstractFactory.getSpeciesFactory(Constants.Species.BIRD);
+		SpeciesFactory speciesFactoryInsect = abstractFactory.getSpeciesFactory(Constants.Species.INSECT);
+		SpeciesFactory speciesFactoryReptile = abstractFactory.getSpeciesFactory(Constants.Species.REPTILE);
 	
 		Random random = new Random();
 		Animal[] zoowsomeAnimals = new Animal[Constants.NUMBER_OF_ANIMALS];
 		int randomAnimalCreator;
-	
+		
 		for(int i = 0; i< Constants.NUMBER_OF_ANIMALS; i++){
 			randomAnimalCreator = random.nextInt(15);
 			switch (randomAnimalCreator){
 				case 0:
-					zoowsomeAnimals[i] = speciesFactoryMammal.getAnimal(Constants.Animal.Mammal.Giraffe);
+					zoowsomeAnimals[i] = speciesFactoryMammal.getAnimal(Constants.Animal.Mammal.GIRAFFE);
 					break;
 				case 1: 
-					zoowsomeAnimals[i] = speciesFactoryMammal.getAnimal(Constants.Animal.Mammal.Lion);
+					zoowsomeAnimals[i] = speciesFactoryMammal.getAnimal(Constants.Animal.Mammal.LION);
 					break;
 				case 2:
-					zoowsomeAnimals[i] = speciesFactoryMammal.getAnimal(Constants.Animal.Mammal.Tiger);
+					zoowsomeAnimals[i] = speciesFactoryMammal.getAnimal(Constants.Animal.Mammal.TIGER);
 					break;
 				case 3:
-					zoowsomeAnimals[i] = speciesFactoryAquatic.getAnimal(Constants.Animal.Aquatic.Clownfish);
+					zoowsomeAnimals[i] = speciesFactoryAquatic.getAnimal(Constants.Animal.Aquatic.CLOWNFISH);
 					break;
 				case 4:
-					zoowsomeAnimals[i] = speciesFactoryAquatic.getAnimal(Constants.Animal.Aquatic.Piranha);
+					zoowsomeAnimals[i] = speciesFactoryAquatic.getAnimal(Constants.Animal.Aquatic.PIRANHA);
 					break;
 				case 5:
-					zoowsomeAnimals[i] = speciesFactoryAquatic.getAnimal(Constants.Animal.Aquatic.Tuna);
+					zoowsomeAnimals[i] = speciesFactoryAquatic.getAnimal(Constants.Animal.Aquatic.TUNA);
 					break;
 				case 6:
-					zoowsomeAnimals[i] = speciesFactoryBird.getAnimal(Constants.Animal.Bird.Eagle);
+					zoowsomeAnimals[i] = speciesFactoryBird.getAnimal(Constants.Animal.Bird.EAGLE);
 					break;
 				case 7:
-					zoowsomeAnimals[i] = speciesFactoryBird.getAnimal(Constants.Animal.Bird.Parrot);
+					zoowsomeAnimals[i] = speciesFactoryBird.getAnimal(Constants.Animal.Bird.PARROT);
 					break;
 				case 8:
-					zoowsomeAnimals[i] = speciesFactoryBird.getAnimal(Constants.Animal.Bird.Swan);
+					zoowsomeAnimals[i] = speciesFactoryBird.getAnimal(Constants.Animal.Bird.SWAN);
 					break;
 				case 9:
-					zoowsomeAnimals[i] = speciesFactoryInsect.getAnimal(Constants.Animal.Insect.Butterfly);
+					zoowsomeAnimals[i] = speciesFactoryInsect.getAnimal(Constants.Animal.Insect.BUTTERFLY);
 					break;
 				case 10:
-					zoowsomeAnimals[i] = speciesFactoryInsect.getAnimal(Constants.Animal.Insect.Mosquito);
+					zoowsomeAnimals[i] = speciesFactoryInsect.getAnimal(Constants.Animal.Insect.MOSQUITO);
 					break;
 				case 11:
-					zoowsomeAnimals[i] = speciesFactoryInsect.getAnimal(Constants.Animal.Insect.Spider);
+					zoowsomeAnimals[i] = speciesFactoryInsect.getAnimal(Constants.Animal.Insect.SPIDER);
 					break;
 				case 12:
-					zoowsomeAnimals[i] = speciesFactoryReptile.getAnimal(Constants.Animal.Reptile.Lizard);
+					zoowsomeAnimals[i] = speciesFactoryReptile.getAnimal(Constants.Animal.Reptile.LIZARD);
 					break;
 				case 13:
-					zoowsomeAnimals[i] = speciesFactoryReptile.getAnimal(Constants.Animal.Reptile.Snake);
+					zoowsomeAnimals[i] = speciesFactoryReptile.getAnimal(Constants.Animal.Reptile.SNAKE);
 					break;
 				case 14:
-					zoowsomeAnimals[i] = speciesFactoryReptile.getAnimal(Constants.Animal.Reptile.Tortoise);
+					zoowsomeAnimals[i] = speciesFactoryReptile.getAnimal(Constants.Animal.Reptile.TORTOISE);
 					break;
 			}
+		}
+		
+		EmployeeAbstractFactory abstractEmployeeFactory = new EmployeeAbstractFactory();
+		EmployeeFactory employeeFactory = abstractEmployeeFactory.getEmployeeFactory(Constants.Employees.CARETAKER);
+		Caretaker[] zoowsomeCaretakers = new Caretaker[Constants.NUMBER_OF_CARETAKERS];
+		
+		for(int i = 0; i < Constants.NUMBER_OF_CARETAKERS; i++){
+			zoowsomeCaretakers[i] = (Caretaker) employeeFactory.getEmployee(Constants.Employees.CARETAKER);
+		}
+		
+		for(int i = 0; i < Constants.NUMBER_OF_CARETAKERS; i++){
+			for (int j = 0; j < Constants.NUMBER_OF_ANIMALS; j++){
+				if ((!zoowsomeCaretakers[i].getIsDead()) && (!zoowsomeAnimals[j].getTakenCareOf())){
+					String result = zoowsomeCaretakers[i].takeCareOf(zoowsomeAnimals[j]);
+					if(result.equals(Constants.Employees.Caretakers.TCO_KILLED)){
+						zoowsomeCaretakers[i].setIsDead(true);
+					}
+					else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)){
+						continue; //skip to the next animal
+					}
+					else {
+						zoowsomeAnimals[j].setTakenCareOf(true);
+					}
+				}
+			}
+		}
+		
+		for (int i = 0; i < Constants.NUMBER_OF_ANIMALS; i++){
+			System.out.println (zoowsomeAnimals[i].getName() + "  - taken care of status: " + zoowsomeAnimals[i].getTakenCareOf()) ;
 		}
 	}
 }
