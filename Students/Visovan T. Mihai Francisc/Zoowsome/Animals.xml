@@ -1,0 +1,281 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>35.5</normalBodyTemp>
+	<percBodyHair>10.2</percBodyHair>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Parrot</name>
+	<maintenanceCost>2.4</maintenanceCost>
+	<damagePerc>0.2</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgFlightAltitude>200</avgFlightAltitude>
+	<migrates>false</migrates>
+	<DISCRIMINANT>PARROT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tortoise</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>TORTOISE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Crow</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<migrates>true</migrates>
+	<DISCRIMINANT>CROW</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Crow</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<migrates>true</migrates>
+	<DISCRIMINANT>CROW</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Monkey</name>
+	<maintenanceCost>6.3</maintenanceCost>
+	<damagePerc>0.5</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>32.5</normalBodyTemp>
+	<percBodyHair>40.2</percBodyHair>
+	<DISCRIMINANT>MONKEY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Butterfly</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<damagePerc>0.0</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>7.0</maintenanceCost>
+	<damagePerc>0.8</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgSwimDepth>500</avgSwimDepth>
+	<DISCRIMINANT>SHARK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Monkey</name>
+	<maintenanceCost>6.3</maintenanceCost>
+	<damagePerc>0.5</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>32.5</normalBodyTemp>
+	<percBodyHair>40.2</percBodyHair>
+	<DISCRIMINANT>MONKEY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tortoise</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>TORTOISE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Monkey</name>
+	<maintenanceCost>6.3</maintenanceCost>
+	<damagePerc>0.5</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>32.5</normalBodyTemp>
+	<percBodyHair>40.2</percBodyHair>
+	<DISCRIMINANT>MONKEY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Ant</name>
+	<maintenanceCost>0.5</maintenanceCost>
+	<damagePerc>0.0</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Crow</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<migrates>true</migrates>
+	<DISCRIMINANT>CROW</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Parrot</name>
+	<maintenanceCost>2.4</maintenanceCost>
+	<damagePerc>0.2</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgFlightAltitude>200</avgFlightAltitude>
+	<migrates>false</migrates>
+	<DISCRIMINANT>PARROT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Ant</name>
+	<maintenanceCost>0.5</maintenanceCost>
+	<damagePerc>0.0</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tiger</name>
+	<maintenanceCost>7.0</maintenanceCost>
+	<damagePerc>0.7</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>80.2</percBodyHair>
+	<DISCRIMINANT>TIGER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>35.5</normalBodyTemp>
+	<percBodyHair>10.2</percBodyHair>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tortoise</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>TORTOISE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Spider</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<damagePerc>0.7</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>SPIDER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Ant</name>
+	<maintenanceCost>0.5</maintenanceCost>
+	<damagePerc>0.0</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tortoise</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>TORTOISE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tortoise</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>TORTOISE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>35.5</normalBodyTemp>
+	<percBodyHair>10.2</percBodyHair>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Monkey</name>
+	<maintenanceCost>6.3</maintenanceCost>
+	<damagePerc>0.5</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>32.5</normalBodyTemp>
+	<percBodyHair>40.2</percBodyHair>
+	<DISCRIMINANT>MONKEY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<damagePerc>0.1</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>35.5</normalBodyTemp>
+	<percBodyHair>10.2</percBodyHair>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Ant</name>
+	<maintenanceCost>0.5</maintenanceCost>
+	<damagePerc>0.0</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>8.0</maintenanceCost>
+	<damagePerc>0.8</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>SNAKE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Eagle</name>
+	<maintenanceCost>5.0</maintenanceCost>
+	<damagePerc>0.4</damagePerc>
+	<takenCareOf>true</takenCareOf>
+	<avgFlightAltitude>2000</avgFlightAltitude>
+	<migrates>true</migrates>
+	<DISCRIMINANT>EAGLE</DISCRIMINANT>
+</ANIMAL>
+</content>

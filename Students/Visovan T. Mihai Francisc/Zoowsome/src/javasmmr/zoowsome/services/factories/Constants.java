@@ -1,13 +1,27 @@
 package javasmmr.zoowsome.services.factories;
-import java.util.Arrays;
+
+import java.math.BigDecimal;
+
 
 
 public final class Constants {  
 	
-	 public static final String[] ANIMALS = {"Cow", "Tiger", "Tortoise", "Spider", "Butterfly", "Ant","Shark"};
 	 public static final String[] EMPLOYEES = {"Ana", "Maria", "Marta", "Andreea", "Camelia", "Mihai", "Paul"};
-	 public static final int[] WORKINGHOURS = {5, 8, 12, 3, 4, 6, 8};
-	 
+	 public static final int[] WORKINGHOURS = {15, 20, 10, 12, 8, 5};
+	 public static final String[] TYPES = {"KILLED", "SUCCES", "NO_TIME"};
+   	 public static final BigDecimal FIRST = new BigDecimal("250.67");
+   	 public static final BigDecimal SECOND = new BigDecimal("835.92");
+   	 public static final BigDecimal THIRD = new BigDecimal("536.25");
+   	 public static final BigDecimal FORTH = new BigDecimal("635.21");
+   	 public static final BigDecimal FIFTH = new BigDecimal("753.25");
+   	 public static final BigDecimal[] SALARIES = {FIRST, SECOND, THIRD, FORTH, FIFTH}; 
+   	 
+   	 public static final class XML_TAGS{
+   		 public static final String DISCRIMINANT = "DISCRIMINANT";
+   		 public static final String ANIMAL = "ANIMAL";
+   		 public static final String CARETAKER = "CARETAKER";
+   	 }
+
 
 	 public static final class Species {   
 		 public static final String MAMMALS = "MAMMALS";  

@@ -1,0 +1,82 @@
+<?xml version="1.0"?><content>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Andreea</name>
+	<id>-5949118210862581439</id>
+	<salary>753.25</salary>
+	<numberOfTakenCareOf>8</numberOfTakenCareOf>
+	<workingHours>0.8999999999999999</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Mihai</name>
+	<id>2490404013390637487</id>
+	<salary>536.25</salary>
+	<numberOfTakenCareOf>1</numberOfTakenCareOf>
+	<workingHours>0.6999999999999993</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Ana</name>
+	<id>4083949642917077347</id>
+	<salary>536.25</salary>
+	<numberOfTakenCareOf>1</numberOfTakenCareOf>
+	<workingHours>0.5</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Ana</name>
+	<id>418149400207698175</id>
+	<salary>635.21</salary>
+	<numberOfTakenCareOf>6</numberOfTakenCareOf>
+	<workingHours>1.2999999999999998</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Camelia</name>
+	<id>1391365732064231371</id>
+	<salary>753.25</salary>
+	<numberOfTakenCareOf>2</numberOfTakenCareOf>
+	<workingHours>2.3999999999999995</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Marta</name>
+	<id>3155087940638841939</id>
+	<salary>635.21</salary>
+	<numberOfTakenCareOf>1</numberOfTakenCareOf>
+	<workingHours>1.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Marta</name>
+	<id>7662589350564129897</id>
+	<salary>753.25</salary>
+	<numberOfTakenCareOf>1</numberOfTakenCareOf>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Ana</name>
+	<id>-348521625016991644</id>
+	<salary>835.92</salary>
+	<numberOfTakenCareOf>3</numberOfTakenCareOf>
+	<workingHours>1.7000000000000002</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Maria</name>
+	<id>-5592640212635171700</id>
+	<salary>250.67</salary>
+	<numberOfTakenCareOf>2</numberOfTakenCareOf>
+	<workingHours>3.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<isDead>false</isDead>
+	<name>Mihai</name>
+	<id>-5295280493740534474</id>
+	<salary>536.25</salary>
+	<numberOfTakenCareOf>1</numberOfTakenCareOf>
+	<workingHours>7.0</workingHours>
+</CARETAKER>
+</content>

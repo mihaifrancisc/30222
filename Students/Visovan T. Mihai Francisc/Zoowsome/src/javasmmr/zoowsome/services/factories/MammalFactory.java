@@ -8,7 +8,7 @@ public class MammalFactory extends SpeciesFactory {
 		 if (Constants.Animals.Mammals.TIGER.equals(type)) {   
 			 return new Tiger(); }
 		 else if (Constants.Animals.Mammals.COW.equals(type)) {   
-				 return new Cow();   } 
+			 return new Cow();   } 
 		 else if(Constants.Animals.Mammals.MONKEY.equals(type)){
 			 return new Monkey();	}
 		 else {
