@@ -9,16 +9,14 @@ import org.w3c.dom.Element;
 
 public abstract class Aquatic extends Animal {
 
+	
+	int avgSwimDepth;
+	
 	public Aquatic(double maintenanceCost, double damagePerc) {
 		super(maintenanceCost, damagePerc);
 		// TODO Auto-generated constructor stub
 	}
-	int avgSwimDepth;
-	public enum waterType {
-		
-		saltwater, freshwater
-	}
-	
+	public enum waterType {saltwater, freshwater}
 	
 	public int getAvgSwimDepth() {
 		return avgSwimDepth;

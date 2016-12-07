@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Parrot extends Bird {
 	
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Parrot(){
 		super(2.4,0.2);
 		super.nrOfLegs = 2;

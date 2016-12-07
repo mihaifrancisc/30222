@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Spider extends Insect {
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Spider(){
 		super(3.0,0.7);
 		super.nrOfLegs = 8;

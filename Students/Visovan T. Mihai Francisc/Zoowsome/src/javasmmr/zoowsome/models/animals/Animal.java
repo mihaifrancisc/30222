@@ -14,20 +14,32 @@ public abstract class Animal implements Killer, XML_Parsable{
 	double rangeMax = 1;
 	Random r = new Random();
 	double randomValue = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
-	public double getPredisposition(){
-		return 0;
-	}
-
+	
+	
 	public int nrOfLegs;
 	protected String name;
 	public double maintenanceCost;
 	public double damagePerc;
 	public boolean takenCareOf = false;
 	
+	
 	public Animal(double maintenanceCost, double damagePerc){
 		this.maintenanceCost = maintenanceCost;
 		this.damagePerc = damagePerc;
 	}
+	
+	public boolean kill()
+	{
+		if(randomValue < damagePerc)
+			return true;
+		else
+			return false;
+	}
+	
+	public double getPredisposition(){
+		return 0;
+	}
+	
 	public double getMaintenanceCost() {
 		return maintenanceCost;
 	}

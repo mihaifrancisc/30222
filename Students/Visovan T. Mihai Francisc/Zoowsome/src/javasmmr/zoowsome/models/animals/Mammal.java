@@ -9,13 +9,14 @@ import org.w3c.dom.Element;
 
 public abstract class Mammal extends Animal{
 	
+
+	float normalBodyTemp;
+	float percBodyHair;
+	
 	public Mammal(double maintenanceCost, double damagePerc) {
 		super(maintenanceCost, damagePerc);
 		// TODO Auto-generated constructor stub
 	}
-	float normalBodyTemp;
-	float percBodyHair;
-	
 	public float getNormalBodyTemp() {
 		return normalBodyTemp;
 	}

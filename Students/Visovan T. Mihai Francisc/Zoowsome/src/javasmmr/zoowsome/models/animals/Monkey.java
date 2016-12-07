@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Monkey extends Mammal{
 	
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Monkey(){
 		
 		super(6.3,0.5);

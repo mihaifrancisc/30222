@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Snake extends Reptile {
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Snake(){
 		super(8.0,0.8);
 		super.nrOfLegs = 0;

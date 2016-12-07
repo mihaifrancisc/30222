@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Shark extends Aquatic{
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Shark(){
 		super(7.0, 0.8);
 		super.nrOfLegs = 0;

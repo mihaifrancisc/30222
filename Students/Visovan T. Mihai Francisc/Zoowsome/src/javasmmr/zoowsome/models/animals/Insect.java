@@ -9,12 +9,14 @@ import org.w3c.dom.Element;
 
 public abstract class Insect extends Animal {
 
+	
+	boolean canItFly;
+	boolean isDangerous;
+	
 	public Insect(double maintenanceCost, double damagePerc) {
 		super(maintenanceCost, damagePerc);
 		// TODO Auto-generated constructor stub
 	}
-	boolean canItFly;
-	boolean isDangerous;
 	
 	
 	public boolean isCanItFly() {

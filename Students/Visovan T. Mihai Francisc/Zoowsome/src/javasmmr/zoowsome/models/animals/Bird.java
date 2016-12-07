@@ -9,12 +9,14 @@ import org.w3c.dom.Element;
 
 public abstract class Bird extends Animal{
 
+	
+	boolean migrates;
+	int avgFlightAltitude;
+	
 	public Bird(double maintenanceCost, double damagePerc) {
 		super(maintenanceCost, damagePerc);
 		// TODO Auto-generated constructor stub
 	}
-	boolean migrates;
-	int avgFlightAltitude;
 	
 	public boolean isMigrates() {
 		return migrates;

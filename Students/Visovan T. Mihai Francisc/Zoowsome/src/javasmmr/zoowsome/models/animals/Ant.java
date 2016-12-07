@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Ant extends Insect  {
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	
 	public Ant(){
 		
@@ -32,6 +26,13 @@ public class Ant extends Insect  {
 		super.encodeToXml(eventWriter);
 		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Insects.ANT);
 		}
+
+
+	@Override
+	public boolean kill() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
 	
 

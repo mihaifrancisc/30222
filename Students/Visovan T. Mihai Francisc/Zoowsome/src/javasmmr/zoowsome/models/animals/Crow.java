@@ -9,13 +9,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Crow extends Bird {
 	
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Crow(){
 		super(2.0,0.1);
 		super.nrOfLegs = 2;

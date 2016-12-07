@@ -8,13 +8,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Whale extends Aquatic {
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Whale(){
 		super(6.0,0.6);
 		super.nrOfLegs = 0;

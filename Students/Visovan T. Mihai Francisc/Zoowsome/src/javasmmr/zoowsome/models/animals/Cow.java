@@ -8,13 +8,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Cow extends Mammal {
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+	
 	public Cow(){
 	super(4.0,0.1);
 	super.nrOfLegs = 4;

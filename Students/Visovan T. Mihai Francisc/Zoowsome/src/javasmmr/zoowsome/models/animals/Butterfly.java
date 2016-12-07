@@ -8,13 +8,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Butterfly extends Insect {
 
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Butterfly(){
 		super(1.0, 0.0);
 		super.nrOfLegs = 4;

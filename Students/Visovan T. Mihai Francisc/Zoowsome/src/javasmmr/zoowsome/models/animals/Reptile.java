@@ -10,12 +10,14 @@ import org.w3c.dom.Element;
 
 public abstract class Reptile extends Animal{
 	
+
+
+	boolean layEggs;
+	
 	public Reptile(double maintenanceCost, double damagePerc) {
 		super(maintenanceCost, damagePerc);
 		// TODO Auto-generated constructor stub
 	}
-
-	boolean layEggs;
 
 	public boolean isLayEggs() {
 		return layEggs;

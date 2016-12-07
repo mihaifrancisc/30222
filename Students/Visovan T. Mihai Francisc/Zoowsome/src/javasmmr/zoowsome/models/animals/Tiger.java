@@ -8,13 +8,7 @@ import javax.xml.stream.XMLStreamException;
 
 public class Tiger extends Mammal{
 	
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
+
 	public Tiger(){
 		super(7.0, 0.7);
 		super.nrOfLegs = 4;

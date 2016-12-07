@@ -9,13 +9,6 @@ import javax.xml.stream.XMLStreamException;
 
 public class Crocodile extends Reptile{
 	
-	public boolean kill(){
-		
-		if(super.randomValue < super.damagePerc)
-			return true;
-		else
-			return false;
-	}
 	public Crocodile(){
 		super(8.0,0.7);
 		super.nrOfLegs = 4;
